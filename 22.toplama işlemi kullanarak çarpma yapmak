@@ -1,0 +1,16 @@
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Birinci sayı   :");
+            int s1 = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("ikinci sayı   :");
+            int s2 = Int32.Parse(Console.ReadLine());
+
+
+            for (int i = 1; i < s2; i++)
+            {
+                s1 += s1;
+            }
+            Console.Write("sayıların çarpımı  : {0}", s1);
+            Console.ReadLine();
+        }
